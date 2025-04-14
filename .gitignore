@@ -69,4 +69,8 @@ output/
 *.synctex.gz
 
 # Obsidian directory
-obsidian/ 
+obsidian/
+
+# Additional files to ignore
+perplexity.md
+.cursor/ 

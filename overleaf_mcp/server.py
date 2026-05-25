@@ -19,8 +19,6 @@ from pathlib import Path
 # Create the MCP server
 mcp = FastMCP(
     "Overleaf LaTeX Editor",
-    description="LaTeX editing with Overleaf integration",
-    dependencies=["TexSoup>=0.3.1", "pylatexenc>=2.10"],
 )
 
 # Import and register tools
